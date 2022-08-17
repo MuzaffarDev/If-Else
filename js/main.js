@@ -11,12 +11,12 @@ let bilet = 500;
 let mehmonxona = 250;
 let aylanish = 120;
 
-let xarajtlaryigindisi = (bilet + mehmonxona) * dollar + aylanish * yevro;
+let xarajtlarYigindisi = (bilet + mehmonxona) * dollar + aylanish * yevro;
    console.log(`xarajatlar`);
 
 let usermoney = prompt("Joriy mablag'ingizni kiriting!", 2000000);
 
-if (xarajtlaryigindisi >= usermoney) {
+if (xarajtlarYigindisi >= usermoney) {
   console.log(`Afsus ${firstname} sizda ${travel}ga borgani mablag' yetarli emas`);
 } else {
   console.log(`${firstname} sizda ${travel}ga borishga mablag' yetarli`);
