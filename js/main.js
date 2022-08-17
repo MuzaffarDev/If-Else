@@ -12,7 +12,6 @@ let mehmonxona = 250;
 let aylanish = 120;
 
 let xarajtlarYigindisi = (bilet + mehmonxona) * dollar + aylanish * yevro;
-   console.log(`xarajatlar`);
 
 let usermoney = prompt("Joriy mablag'ingizni kiriting!", 2000000);
 
