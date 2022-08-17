@@ -18,5 +18,5 @@ let usermoney = prompt("Joriy mablag'ingizni kiriting!", 2000000);
 if (xarajtlarYigindisi >= usermoney) {
   console.log(`Afsus ${firstname} sizda ${travel}ga borgani mablag' yetarli emas`);
 } else {
-  console.log(`${firstname} sizda ${travel}ga borishga mablag' yetarli`);
+  console.log(`${firstname} sizda ${travel}ga borishga mablag' yetarli yoningizda yana ozgina pul olvoling `);
 }
