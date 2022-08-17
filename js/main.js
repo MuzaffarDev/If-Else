@@ -4,8 +4,8 @@ alert(`Assaalomu aleykum ${firstname}!`);
 let travel = prompt("Qaysi mamlakatga uchmoqchisiz?");
 alert(`Ajoyib tanlov ${firstname}`);
 
-const dollar = 1100.34;
-const yevro = 1234.04;
+const dollar = 11000;
+const yevro = 12340;
 
 let bilet = 500;
 let mehmonxona = 250;
@@ -20,9 +20,9 @@ if (xarajtlarYigindisi >= usermoney) {
     `Afsus ${firstname} sizda ${travel}ga borgani mablag' yetarli emas`
   );
   alert(
-    `Afsus ${firstname} sizda ${travel}ga borgani${
+    `Afsus ${firstname} sizda ${travel}ga borgani ${
       xarajtlarYigindisi - usermoney
-    } mablag' yetarli emas`
+    }  mablag' yetarli emas`
   );
 } else {
   console.log(
