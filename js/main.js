@@ -1,8 +1,8 @@
-let name = prompt("Ismingizni kiriting!");
-alert(`Assaalomu aleykum ${name}!`);
+let firstname = prompt("Ismingizni kiriting!");
+alert(`Assaalomu aleykum ${firstname}!`);
 
 let travel = prompt("Qaysi mamlakatga uchmoqchisiz?");
-alert(`Ajoyib tanlov ${name}`);
+alert(`Ajoyib tanlov ${firstname}`);
 
 const dollar = 1100.34;
 const yevro = 1234.04;
@@ -17,7 +17,7 @@ let xarajtlaryigindisi = (bilet + mehmonxona) * dollar + aylanish * yevro;
 let usermoney = prompt("Joriy mablag'ingizni kiriting!", 2000000);
 
 if (xarajtlaryigindisi >= usermoney) {
-  console.log(`Afsus ${name} sizda ${travel}ga borgani mablag' yetarli emas`);
+  console.log(`Afsus ${firstname} sizda ${travel}ga borgani mablag' yetarli emas`);
 } else {
-  console.log(`${name} sizda ${travel}ga borishga mablag' yetarli`);
+  console.log(`${firstname} sizda ${travel}ga borishga mablag' yetarli`);
 }
